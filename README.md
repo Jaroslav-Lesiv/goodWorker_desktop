@@ -21,7 +21,7 @@ if  you wont run prebuild app run
  - `npm run build:app` or `yarn build:app`
  - `npm run prebuild` or `yarn run prebuild`
  
- for create release build run 
+## For create release build run 
  
  Windows
  
@@ -37,3 +37,21 @@ Linux (Debian)
  - `npm run build:linux` or `yarn build:linux`
  
  ![enter image description here](/screens/DeepinScreenshot_20181025101732.png)
+ 
+  
+## For create installer
+ 
+ Windows
+ 
+ - x32 .msi and .exe - `npm run installer:win32` or `yarn installer:win32`
+ - x64 .msi and .exe - `npm run installer:win64` or `yarn installer:win64`
+
+MacOS
+
+ - .dmg `npm run installer:mac` or `yarn installer:mac`
+
+Linux (Debian)
+
+ - .deb `npm run installer:deb` or `yarn installer:deb`
+ 
+  ![enter image description here](/screens/DeepinScreenshot_20181025101712.png)
